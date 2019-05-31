@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func isValidCredentials() -> Bool {
+        return false
+    }
+    
     func setCustomView(customView: UIView) {
         customView.layer.cornerRadius = 30
         customView.clipsToBounds = true
