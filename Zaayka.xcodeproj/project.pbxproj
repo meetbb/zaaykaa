@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0517E9229EE00000FE5B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0517E8229EE00000FE5B13 /* AppDelegate.swift */; };
+		FE0517EB229EE00000FE5B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0517EA229EE00000FE5B13 /* ViewController.swift */; };
+		FE0517EE229EE00000FE5B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0517EC229EE00000FE5B13 /* Main.storyboard */; };
+		FE0517F0229EE00000FE5B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0517EF229EE00000FE5B13 /* Assets.xcassets */; };
+		FE0517F3229EE00000FE5B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0517F1229EE00000FE5B13 /* LaunchScreen.storyboard */; };
+		FE0517FE229EE00000FE5B13 /* ZaaykaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0517FD229EE00000FE5B13 /* ZaaykaTests.swift */; };
+		FE051809229EE00000FE5B13 /* ZaaykaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE051808229EE00000FE5B13 /* ZaaykaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE0517FA229EE00000FE5B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0517DD229EDFFF00FE5B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0517E4229EDFFF00FE5B13;
+			remoteInfo = Zaayka;
+		};
+		FE051805229EE00000FE5B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0517DD229EDFFF00FE5B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0517E4229EDFFF00FE5B13;
+			remoteInfo = Zaayka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0517E5229EDFFF00FE5B13 /* Zaayka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zaayka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0517E8229EE00000FE5B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE0517EA229EE00000FE5B13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE0517ED229EE00000FE5B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0517EF229EE00000FE5B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0517F2229EE00000FE5B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0517F4229EE00000FE5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0517F9229EE00000FE5B13 /* ZaaykaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaaykaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0517FD229EE00000FE5B13 /* ZaaykaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaaykaTests.swift; sourceTree = "<group>"; };
+		FE0517FF229EE00000FE5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE051804229EE00000FE5B13 /* ZaaykaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaaykaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE051808229EE00000FE5B13 /* ZaaykaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaaykaUITests.swift; sourceTree = "<group>"; };
+		FE05180A229EE00000FE5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0517E2229EDFFF00FE5B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0517F6229EE00000FE5B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE051801229EE00000FE5B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0517DC229EDFFF00FE5B13 = {
+			isa = PBXGroup;
+			children = (
+				FE0517E7229EE00000FE5B13 /* Zaayka */,
+				FE0517FC229EE00000FE5B13 /* ZaaykaTests */,
+				FE051807229EE00000FE5B13 /* ZaaykaUITests */,
+				FE0517E6229EDFFF00FE5B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0517E6229EDFFF00FE5B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0517E5229EDFFF00FE5B13 /* Zaayka.app */,
+				FE0517F9229EE00000FE5B13 /* ZaaykaTests.xctest */,
+				FE051804229EE00000FE5B13 /* ZaaykaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0517E7229EE00000FE5B13 /* Zaayka */ = {
+			isa = PBXGroup;
+			children = (
+				FE0517E8229EE00000FE5B13 /* AppDelegate.swift */,
+				FE0517EA229EE00000FE5B13 /* ViewController.swift */,
+				FE0517EC229EE00000FE5B13 /* Main.storyboard */,
+				FE0517EF229EE00000FE5B13 /* Assets.xcassets */,
+				FE0517F1229EE00000FE5B13 /* LaunchScreen.storyboard */,
+				FE0517F4229EE00000FE5B13 /* Info.plist */,
+			);
+			path = Zaayka;
+			sourceTree = "<group>";
+		};
+		FE0517FC229EE00000FE5B13 /* ZaaykaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0517FD229EE00000FE5B13 /* ZaaykaTests.swift */,
+				FE0517FF229EE00000FE5B13 /* Info.plist */,
+			);
+			path = ZaaykaTests;
+			sourceTree = "<group>";
+		};
+		FE051807229EE00000FE5B13 /* ZaaykaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE051808229EE00000FE5B13 /* ZaaykaUITests.swift */,
+				FE05180A229EE00000FE5B13 /* Info.plist */,
+			);
+			path = ZaaykaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0517E4229EDFFF00FE5B13 /* Zaayka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE05180D229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "Zaayka" */;
+			buildPhases = (
+				FE0517E1229EDFFF00FE5B13 /* Sources */,
+				FE0517E2229EDFFF00FE5B13 /* Frameworks */,
+				FE0517E3229EDFFF00FE5B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zaayka;
+			productName = Zaayka;
+			productReference = FE0517E5229EDFFF00FE5B13 /* Zaayka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE0517F8229EE00000FE5B13 /* ZaaykaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE051810229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "ZaaykaTests" */;
+			buildPhases = (
+				FE0517F5229EE00000FE5B13 /* Sources */,
+				FE0517F6229EE00000FE5B13 /* Frameworks */,
+				FE0517F7229EE00000FE5B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0517FB229EE00000FE5B13 /* PBXTargetDependency */,
+			);
+			name = ZaaykaTests;
+			productName = ZaaykaTests;
+			productReference = FE0517F9229EE00000FE5B13 /* ZaaykaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE051803229EE00000FE5B13 /* ZaaykaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE051813229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "ZaaykaUITests" */;
+			buildPhases = (
+				FE051800229EE00000FE5B13 /* Sources */,
+				FE051801229EE00000FE5B13 /* Frameworks */,
+				FE051802229EE00000FE5B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE051806229EE00000FE5B13 /* PBXTargetDependency */,
+			);
+			name = ZaaykaUITests;
+			productName = ZaaykaUITests;
+			productReference = FE051804229EE00000FE5B13 /* ZaaykaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0517DD229EDFFF00FE5B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MeetRao;
+				TargetAttributes = {
+					FE0517E4229EDFFF00FE5B13 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FE0517F8229EE00000FE5B13 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE0517E4229EDFFF00FE5B13;
+					};
+					FE051803229EE00000FE5B13 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE0517E4229EDFFF00FE5B13;
+					};
+				};
+			};
+			buildConfigurationList = FE0517E0229EDFFF00FE5B13 /* Build configuration list for PBXProject "Zaayka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0517DC229EDFFF00FE5B13;
+			productRefGroup = FE0517E6229EDFFF00FE5B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0517E4229EDFFF00FE5B13 /* Zaayka */,
+				FE0517F8229EE00000FE5B13 /* ZaaykaTests */,
+				FE051803229EE00000FE5B13 /* ZaaykaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0517E3229EDFFF00FE5B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0517F3229EE00000FE5B13 /* LaunchScreen.storyboard in Resources */,
+				FE0517F0229EE00000FE5B13 /* Assets.xcassets in Resources */,
+				FE0517EE229EE00000FE5B13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0517F7229EE00000FE5B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE051802229EE00000FE5B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0517E1229EDFFF00FE5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0517EB229EE00000FE5B13 /* ViewController.swift in Sources */,
+				FE0517E9229EE00000FE5B13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0517F5229EE00000FE5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0517FE229EE00000FE5B13 /* ZaaykaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE051800229EE00000FE5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE051809229EE00000FE5B13 /* ZaaykaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE0517FB229EE00000FE5B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0517E4229EDFFF00FE5B13 /* Zaayka */;
+			targetProxy = FE0517FA229EE00000FE5B13 /* PBXContainerItemProxy */;
+		};
+		FE051806229EE00000FE5B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0517E4229EDFFF00FE5B13 /* Zaayka */;
+			targetProxy = FE051805229EE00000FE5B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0517EC229EE00000FE5B13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0517ED229EE00000FE5B13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0517F1229EE00000FE5B13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0517F2229EE00000FE5B13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE05180B229EE00000FE5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE05180C229EE00000FE5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE05180E229EE00000FE5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zaayka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr.Zaayka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE05180F229EE00000FE5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zaayka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr.Zaayka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE051811229EE00000FE5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaaykaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr.ZaaykaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zaayka.app/Zaayka";
+			};
+			name = Debug;
+		};
+		FE051812229EE00000FE5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaaykaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr.ZaaykaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zaayka.app/Zaayka";
+			};
+			name = Release;
+		};
+		FE051814229EE00000FE5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaaykaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr.ZaaykaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zaayka;
+			};
+			name = Debug;
+		};
+		FE051815229EE00000FE5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaaykaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr.ZaaykaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zaayka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0517E0229EDFFF00FE5B13 /* Build configuration list for PBXProject "Zaayka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE05180B229EE00000FE5B13 /* Debug */,
+				FE05180C229EE00000FE5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE05180D229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "Zaayka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE05180E229EE00000FE5B13 /* Debug */,
+				FE05180F229EE00000FE5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE051810229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "ZaaykaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE051811229EE00000FE5B13 /* Debug */,
+				FE051812229EE00000FE5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE051813229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "ZaaykaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE051814229EE00000FE5B13 /* Debug */,
+				FE051815229EE00000FE5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0517DD229EDFFF00FE5B13 /* Project object */;
+}
