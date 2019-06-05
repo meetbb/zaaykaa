@@ -14,6 +14,10 @@
 		FE0517F3229EE00000FE5B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0517F1229EE00000FE5B13 /* LaunchScreen.storyboard */; };
 		FE0517FE229EE00000FE5B13 /* ZaaykaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0517FD229EE00000FE5B13 /* ZaaykaTests.swift */; };
 		FE051809229EE00000FE5B13 /* ZaaykaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE051808229EE00000FE5B13 /* ZaaykaUITests.swift */; };
+		FE77AA2F22A8174D0030B271 /* CuisinesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77AA2E22A8174D0030B271 /* CuisinesController.swift */; };
+		FE77AA3122A821520030B271 /* MyStaticController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE77AA3022A821520030B271 /* MyStaticController.swift */; };
+		FEBB3D8722A0E8C100F784A1 /* DialogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB3D8622A0E8C100F784A1 /* DialogUtils.swift */; };
+		FEBB3D8A22A0EB4A00F784A1 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB3D8922A0EB4A00F784A1 /* CustomViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FE051804229EE00000FE5B13 /* ZaaykaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaaykaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE051808229EE00000FE5B13 /* ZaaykaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaaykaUITests.swift; sourceTree = "<group>"; };
 		FE05180A229EE00000FE5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE77AA2E22A8174D0030B271 /* CuisinesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuisinesController.swift; sourceTree = "<group>"; };
+		FE77AA3022A821520030B271 /* MyStaticController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStaticController.swift; sourceTree = "<group>"; };
+		FEBB3D8622A0E8C100F784A1 /* DialogUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogUtils.swift; sourceTree = "<group>"; };
+		FEBB3D8922A0EB4A00F784A1 /* CustomViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,9 @@
 		FE0517E7229EE00000FE5B13 /* Zaayka */ = {
 			isa = PBXGroup;
 			children = (
+				FE77AA2C22A817090030B271 /* ui */,
+				FEBB3D8822A0EB3500F784A1 /* utils */,
+				FEBB3D8522A0E8A500F784A1 /* DialogUtils */,
 				FE0517E8229EE00000FE5B13 /* AppDelegate.swift */,
 				FE0517EA229EE00000FE5B13 /* ViewController.swift */,
 				FE0517EC229EE00000FE5B13 /* Main.storyboard */,
@@ -123,6 +134,39 @@
 				FE05180A229EE00000FE5B13 /* Info.plist */,
 			);
 			path = ZaaykaUITests;
+			sourceTree = "<group>";
+		};
+		FE77AA2C22A817090030B271 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FE77AA2D22A817170030B271 /* home */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		FE77AA2D22A817170030B271 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FE77AA2E22A8174D0030B271 /* CuisinesController.swift */,
+				FE77AA3022A821520030B271 /* MyStaticController.swift */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		FEBB3D8522A0E8A500F784A1 /* DialogUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB3D8622A0E8C100F784A1 /* DialogUtils.swift */,
+			);
+			name = DialogUtils;
+			sourceTree = "<group>";
+		};
+		FEBB3D8822A0EB3500F784A1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB3D8922A0EB4A00F784A1 /* CustomViews.swift */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0517EB229EE00000FE5B13 /* ViewController.swift in Sources */,
+				FEBB3D8A22A0EB4A00F784A1 /* CustomViews.swift in Sources */,
 				FE0517E9229EE00000FE5B13 /* AppDelegate.swift in Sources */,
+				FEBB3D8722A0E8C100F784A1 /* DialogUtils.swift in Sources */,
+				FE77AA2F22A8174D0030B271 /* CuisinesController.swift in Sources */,
+				FE77AA3122A821520030B271 /* MyStaticController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +530,7 @@
 				FE05180F229EE00000FE5B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE051810229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "ZaaykaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +539,7 @@
 				FE051812229EE00000FE5B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE051813229EE00000FE5B13 /* Build configuration list for PBXNativeTarget "ZaaykaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +548,7 @@
 				FE051815229EE00000FE5B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

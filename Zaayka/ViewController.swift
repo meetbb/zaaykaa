@@ -21,11 +21,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        setCustomView(self.loginCardView)
-        setCustomButton(loginButton)
-        setCustomImageButton(facebookBtn)
-        setCustomImageButton(googlePlusBtn)
-        setCustomImageButton(linkedInBtn)
+        CustomViews().setCustomView(self.loginCardView)
+        CustomViews().setCustomButton(loginButton)
+        CustomViews().setCustomImageButton(facebookBtn)
+        CustomViews().setCustomImageButton(googlePlusBtn)
+        CustomViews().setCustomImageButton(linkedInBtn)
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,33 +34,30 @@ class ViewController: UIViewController {
     }
     
     func isValidCredentials() -> Bool {
-        return false
+        var isValid : Bool = true
+        if loginTextField.text?.isEmpty ?? true {
+            isValid = false
+            DialogUtils().openPopUP("Zaaykaa", Message: "Please enter your Login Id", vc: self)
+        }
+        if passwdTextField.text?.isEmpty ?? true {
+            isValid = false
+            DialogUtils().openPopUP("Zaaykaa", Message: "Please enter your Password", vc: self)
+        }
+        return isValid
     }
     
-    func setCustomView(customView: UIView) {
-        customView.layer.cornerRadius = 30
-        customView.clipsToBounds = true
-        customView.layer.shadowColor = UIColor.blackColor().CGColor
-        customView.layer.shadowOpacity = 0.1
-        customView.layer.shadowOffset = CGSize(width: 10, height: 10)
-        customView.layer.shadowRadius = 1
-        customView.layer.masksToBounds = false
+    @IBAction func onLoginClick(sender: UIButton) {
+        if isValidCredentials() {
+            NSLog("LOGIN Successful.", "Login SuccessFul.")
+            performSegueWithIdentifier("ShowLocalCuisines", sender: nil)
+        }
     }
     
-    func setCustomButton(customView: UIButton) {
-        customView.layer.shadowColor = UIColor.blackColor().CGColor
-        customView.layer.shadowOpacity = 0.1
-        customView.layer.shadowOffset = CGSize(width: 2, height: 2)
-        customView.layer.shadowRadius = 1
-        customView.layer.masksToBounds = false
-    }
-    
-    func setCustomImageButton(customView: UIImageView) {
-        customView.layer.shadowColor = UIColor.blackColor().CGColor
-        customView.layer.shadowOpacity = 0.1
-        customView.layer.shadowOffset = CGSize(width: 2, height: 2)
-        customView.layer.shadowRadius = 1
-        customView.layer.masksToBounds = false
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ShowLocalCuisines" {
+            let cuisineController = segue.destinationViewController as! CuisinesController
+            cuisineController.title = "Cuisines"
+        }
     }
 }
 
